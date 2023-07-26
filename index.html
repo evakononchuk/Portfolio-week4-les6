@@ -28,7 +28,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg pt-4 px-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="images/logo.png" alt="SheCodes" />
@@ -37,23 +37,31 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav d-flex">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -124,18 +132,27 @@
     </div>
 
     <div class="footer">
-      <div class="row">
-        <div class="col-9 ps-5">
+      <div class="row d-flex">
+        <div class="col-sm-9">
           <h2>Work Inquiry</h2>
           <p class="opacity-75">
             Let is work together and i wll help you by all my best
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-sm-3">
           <a href="" class="btn button-footer">Let is talk here</a>
         </div>
       </div>
     </div>
-    <div></div>
+    <div id="contact" class="connection text-center my-5">
+      <div class="mail-link">
+        <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
+      </div>
+      <div class="social-link mt-4">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter mx-4"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
   </body>
 </html>

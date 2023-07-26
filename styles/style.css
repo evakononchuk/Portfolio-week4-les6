@@ -30,7 +30,7 @@ body {
 
 .hero {
   text-align: center;
-  padding: 140px 0;
+  padding: 140px 0 204px 0;
   background-color: var(--color-header);
 }
 
@@ -41,6 +41,12 @@ body {
   background-color: var(--color-button);
   padding: 18px 30px;
   margin-top: 40px;
+}
+
+.button-hero:hover {
+  color: var(--color-button);
+  border: 1px solid var(--color-button);
+  border-radius: 4px;
 }
 
 .content {
@@ -84,7 +90,7 @@ body {
 .footer {
   background-color: var(--color-header);
   padding: 50px;
-  margin: 40px;
+  margin: 60px 40px;
   border: 1px solid var(--color-header);
   border-radius: 20px;
 }
@@ -107,6 +113,31 @@ body {
   margin-top: 23px;
 }
 
+.button-footer:hover {
+  color: var(--color-button);
+  border: 1px solid var(--color-button);
+  border-radius: 4px;
+}
+
+.mail-link a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.mail-link a:hover {
+  color: var(--color-button);
+  text-decoration: underline;
+}
+
+.social-link i {
+  color: var(--color-button);
+  padding: 10px;
+  border: 1px solid var(--color-header);
+  border-radius: 50%;
+  background-color: var(--color-header);
+}
+
 @media (max-width: 900px) {
   .project-description {
     margin-top: 0;
@@ -114,9 +145,6 @@ body {
   }
   .mobile {
     text-align: center;
-  }
-  .hero {
-    padding: 214px 0;
   }
   .hero h1 {
     font-size: 48px;
@@ -136,5 +164,19 @@ body {
   }
   .title-project {
     font-size: 40px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+  .footer h2 {
+    font-size: 40px;
+  }
+  .footer p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .mail-link a {
+    font-size: 16px;
   }
 }
