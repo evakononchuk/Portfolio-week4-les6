@@ -173,12 +173,15 @@ body {
   .hero h4 {
     font-size: 18px;
   }
-  .content {
+  .content, .content-about {
     padding: 60px 20px;
   }
-  .content p {
+  .content p, .content-about p {
     line-height: 24px;
     margin-bottom: 35px;
+  }
+  .content-about {
+    margin: 50px 0 90px 0;
   }
   .title-project {
     font-size: 40px;
