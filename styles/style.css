@@ -13,8 +13,13 @@ body {
   color: var(--color-button);
 }
 
+.navbar-abot, .navbar-work {
+  margin: 30px 100px;
+}
+
 .navbar-home {
   background-color: var(--color-header);
+  padding: 30px 100px;
 }
 
 .hero h1 {
@@ -28,7 +33,7 @@ body {
   font-weight: bold;
 }
 
-.hero h4 {
+.hero h4, h4 {
   font-size: 24px;
 }
 
@@ -59,6 +64,18 @@ body {
   font-family: var(--font-primary);
 }
 
+title-work {
+  margin: 100px 0;
+  font-size: 64px;
+  font-family: var(--font-primary);
+}
+
+.work-p {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+
 .project-description {
   margin-top: 100px;
   text-align: left;
@@ -80,6 +97,10 @@ body {
   font-size: 18px;
   font-weight: bold;
   padding: 10px 0 20px 0;
+}
+
+.content-work {
+  margin: 100px;
 }
 
 .content p {
@@ -157,6 +178,10 @@ body {
 }
 
 @media (max-width: 900px) {
+  .navbar-home, .navbar-about, .navbar-work {
+    margin: 0;
+    padding: 30px 20px;
+  }
   .project-description {
     margin-top: 0;
     text-align: center;
@@ -173,7 +198,7 @@ body {
   .hero h4 {
     font-size: 18px;
   }
-  .content, .content-about {
+  .content {
     padding: 60px 20px;
   }
   .content p, .content-about p {
@@ -181,7 +206,12 @@ body {
     margin-bottom: 35px;
   }
   .content-about {
-    margin: 50px 0 90px 0;
+    margin-bottom: 90px;
+    padding: 0 20px;
+  }
+  .content-work {
+    padding: 0 20px;
+    margin: 0;
   }
   .title-project {
     font-size: 40px;
