@@ -103,7 +103,7 @@ title-work {
   padding: 10px 0 20px 0;
 }
 
-.content-work {
+.content-work, .content-contact {
   margin: 100px;
 }
 
@@ -112,8 +112,6 @@ title-work {
   margin-bottom: 60px;
   line-height: 30px;
 }
-
-
 
 .button-content {
   padding: 10px 20px;
@@ -213,9 +211,10 @@ title-work {
     margin-bottom: 90px;
     padding: 0 20px;
   }
-  .content-work {
+  .content-work, .content-contact {
     padding: 0 20px;
     margin: 0;
+    text-align: center;
   }
   .title-project {
     font-size: 40px;
