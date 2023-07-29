@@ -13,7 +13,7 @@ body {
   color: var(--color-button);
 }
 
-.navbar-abot, .navbar-work {
+.navbar-about, .navbar-work {
   margin: 30px 100px;
 }
 
@@ -43,7 +43,7 @@ h4 {
 
 .hero {
   text-align: center;
-  padding: 140px 0 204px 0;
+  padding: 130px 0 204px 0;
   background-color: var(--color-header);
 }
 
@@ -63,9 +63,14 @@ h4 {
 }
 
 .title-project {
-  margin-bottom: 30px;
   font-size: 64px;
+  line-height: 80px;
+  margin-bottom: 30px;
   font-family: var(--font-primary);
+}
+
+.project-description {
+  text-align: left;
 }
 
 title-work {
@@ -80,11 +85,6 @@ title-work {
   margin-bottom: 26px;
 }
 
-.project-description {
-  margin-top: 100px;
-  text-align: left;
-}
-
 .content {
   background-color: white;
   text-align: center;
@@ -92,9 +92,7 @@ title-work {
 }
 
 .content-about {
-  background-color: white;
   text-align: center;
-  padding: 60px 40px;
 }
 
 .content-about h3 {
@@ -209,7 +207,7 @@ title-work {
   }
   .content-about {
     margin-bottom: 90px;
-    padding: 0 20px;
+    padding: 40px 20px;
   }
   .content-work, .content-contact {
     padding: 0 20px;
