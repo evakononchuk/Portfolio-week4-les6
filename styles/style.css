@@ -64,13 +64,16 @@ h4 {
 
 .title-project {
   font-size: 64px;
-  line-height: 80px;
   margin-bottom: 30px;
   font-family: var(--font-primary);
 }
 
 .project-description {
   text-align: left;
+}
+
+.project-description p {
+  font-size: 14px;
 }
 
 title-work {
