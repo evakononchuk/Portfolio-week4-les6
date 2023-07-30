@@ -62,11 +62,19 @@ h4 {
   border-radius: 4px;
 }
 
-.title-project {
+.title-project, .work {
   font-size: 56px;
   line-height: 1;
-  margin: 30px 0;
+  margin-bottom: 60px;
   font-family: var(--font-primary);
+}
+
+.title-project {
+  margin-bottom: 60px;
+}
+
+.work {
+  margin: 40px 0;
 }
 
 .project-description {
@@ -75,12 +83,6 @@ h4 {
 
 .project-description p, .property {
   font-size: 14px;
-}
-
-title-work {
-  margin: 100px 0;
-  font-size: 64px;
-  font-family: var(--font-primary);
 }
 
 .work-p {
@@ -199,25 +201,25 @@ title-work {
   .hero h4, h4 {
     font-size: 17px;
   }
-  .content-contact, .content-work {
-    padding: 0 20px;
-    margin: 0;
-    text-align: center;
-  }
-  .content {
-    padding: 60px 20px;
-  }
   .content p, .content-about p {
     line-height: 24px;
     margin-bottom: 35px;
   }
-  .content-about {
-    padding: 40px 20px;
+  .content, .content-about, .content-contact {
+    padding: 60px 20px 80px 20px;
+    margin: 0;
+    text-align: center;
+  }
+  .content-work {
+    padding: 20px 20px 80px 20px;
+    margin: 0;
+    text-align: center;
   }
   .title-project, .footer h2 {
     font-size: 40px;
   }
   .footer {
+    margin: 0 20px;
     padding: 20px;
     text-align: center;
   }
