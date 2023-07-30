@@ -64,7 +64,6 @@ h4 {
 
 .title-project, .work {
   font-size: 56px;
-  line-height: 1;
   margin-bottom: 60px;
   font-family: var(--font-primary);
 }
@@ -215,7 +214,7 @@ h4 {
     margin: 0;
     text-align: center;
   }
-  .title-project, .footer h2 {
+  .title-project, .work, .footer h2 {
     font-size: 40px;
   }
   .footer {
@@ -229,5 +228,8 @@ h4 {
   }
   .mail-link a {
     font-size: 16px;
+  }
+  .work {
+    margin: 0;
   }
 }
